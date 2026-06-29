@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="FjMQquPFQ85ltvhv2tvP" name="Страница-1">
+    <mxGraphModel dx="930" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4_dkHunfKp3PS78WIIdU-1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" value="AI Integration Gateway" vertex="1">
+          <mxGeometry height="75" width="150" x="339" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4_dkHunfKp3PS78WIIdU-2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="75" width="150" x="119" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4_dkHunfKp3PS78WIIdU-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" value="YandexGPT API" vertex="1">
+          <mxGeometry height="75" width="150" x="559" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4_dkHunfKp3PS78WIIdU-4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" value="Moodle LMS" vertex="1">
+          <mxGeometry height="75" width="150" x="339" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-27" edge="1" parent="1" source="PE9mJI4ACXLXVAVKQFmu-32" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="4_dkHunfKp3PS78WIIdU-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="370" y="470" as="sourcePoint" />
+            <mxPoint x="530" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-42" connectable="0" parent="PE9mJI4ACXLXVAVKQFmu-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Serving" vertex="1">
+          <mxGeometry relative="1" x="0.1044" y="-1" as="geometry">
+            <mxPoint x="-9" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-28" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.interface;direction=east;" value="REST API" vertex="1">
+          <mxGeometry height="35" width="70" x="269" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-29" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.service;" value="Generation Service" vertex="1">
+          <mxGeometry height="35" width="60" x="429" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-31" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.service;" value="Retrieval Service" vertex="1">
+          <mxGeometry height="35" width="60" x="339" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-32" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.interface;direction=west;" value="External API Client" vertex="1">
+          <mxGeometry height="35" width="70" x="489" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-33" edge="1" parent="1" source="4_dkHunfKp3PS78WIIdU-4" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=horizontal;endFill=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PE9mJI4ACXLXVAVKQFmu-28" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-20" y="180" as="sourcePoint" />
+            <mxPoint x="140" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-38" connectable="0" parent="PE9mJI4ACXLXVAVKQFmu-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5733" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-39" connectable="0" parent="PE9mJI4ACXLXVAVKQFmu-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Serving" vertex="1">
+          <mxGeometry relative="1" x="-0.5685" y="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-40" edge="1" parent="1" source="4_dkHunfKp3PS78WIIdU-1" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="4_dkHunfKp3PS78WIIdU-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="339" />
+            </Array>
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PE9mJI4ACXLXVAVKQFmu-41" connectable="0" parent="PE9mJI4ACXLXVAVKQFmu-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Acces" vertex="1">
+          <mxGeometry relative="1" x="0.4643" y="-1" as="geometry">
+            <mxPoint x="14" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
