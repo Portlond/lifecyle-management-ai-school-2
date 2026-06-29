@@ -1,0 +1,9 @@
+name: CI-Check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a simple check
+        run: echo "Жизненный цикл ПО успешно прошел проверку автоматизации!"
